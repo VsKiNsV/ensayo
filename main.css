@@ -1,0 +1,100 @@
+body{
+    background-color: #F9BD80;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.godsplan {
+    background: #FFF5D2;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle; 
+    border-radius: 1rem;
+    
+}
+
+h3 {
+    font-size: 4mm;
+    text-align: left;
+}
+
+.plan {
+    background: #FFF5D2;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle; 
+    border-radius: 1rem;
+    
+}
+
+.plan__title {
+    color: sienna;
+}
+
+.plan__price{
+    color: rgba(160, 81, 45, 0.63);    
+    font-size: 4mm;
+}
+
+.button {
+    background: #BD3A21;
+    color: white;
+    font: inherit;
+    
+    padding: 8px; 
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-header {
+    width: 100%;
+    background: #FFEDA6;
+    padding: 8px 16px;
+    height: 4rem; 
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.main-nav{
+    text-align: left;
+    vertical-align: middle;
+    width: calc(100% 20%);
+}
+
+.main-nav__items {
+    margin: 28px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    border: radius 20%;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0rem 1rem 0rem;
+}
+
+
+.main-nav__item a,
+.mobile.main-nav__item a{
+    text-decoration: none;
+    font-weight:bold;
+    padding: 0.7rem 1rem;
+    color: white;
+    border-radius: 2,5px;
+    background: #672317;
+    border-radius: 0.8rem;
+    
+}
+
+
+
+
+
